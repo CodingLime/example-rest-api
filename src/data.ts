@@ -110,7 +110,7 @@ const desserts: Dessert[] = [
     calories: 240,
     price: 6.99,
     description: "Layers of cake, strawberries, and cream",
-    imageURL: "/images/Strawberry_Shotcake.jpg",
+    imageURL: "/images/Strawberry_Shortcake.jpg",
   },
   {
     id: 14,
