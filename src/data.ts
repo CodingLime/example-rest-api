@@ -46,7 +46,7 @@ const desserts: Dessert[] = [
     calories: 280,
     price: 6.99,
     description: "Tangy and refreshing",
-    imageURL: "/images/Lemon_Tart.jpg",
+    imageURL: "/images/Lemon_Tart.png",
   },
   {
     id: 6,
