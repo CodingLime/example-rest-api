@@ -5,6 +5,8 @@ interface Dessert {
   price: number;
   description: string;
   imageURL: string;
+  duration: number; // in minutes
+  easeOfMaking: string; // Easy, Medium, Difficult
 }
 
 const desserts: Dessert[] = [
@@ -15,6 +17,8 @@ const desserts: Dessert[] = [
     price: 9.99,
     description: "Moist chocolate cake",
     imageURL: "/images/Chocolate_Cake.jpg",
+    duration: 60,
+    easeOfMaking: "Medium",
   },
   {
     id: 2,
@@ -23,6 +27,8 @@ const desserts: Dessert[] = [
     price: 7.99,
     description: "Classic apple pie",
     imageURL: "/images/Apple_Pie.jpg",
+    duration: 45,
+    easeOfMaking: "Medium",
   },
   {
     id: 3,
@@ -31,6 +37,8 @@ const desserts: Dessert[] = [
     price: 8.99,
     description: "Creamy and rich cheesecake",
     imageURL: "/images/Cheesecake.jpg",
+    duration: 90,
+    easeOfMaking: "Difficult",
   },
   {
     id: 4,
@@ -39,6 +47,8 @@ const desserts: Dessert[] = [
     price: 10.99,
     description: "Layered coffee-flavored",
     imageURL: "/images/Tiramisu.jpg",
+    duration: 60,
+    easeOfMaking: "Medium",
   },
   {
     id: 5,
@@ -47,6 +57,8 @@ const desserts: Dessert[] = [
     price: 6.99,
     description: "Tangy and refreshing",
     imageURL: "/images/Lemon_Tart.png",
+    duration: 30,
+    easeOfMaking: "Easy",
   },
   {
     id: 6,
@@ -55,6 +67,8 @@ const desserts: Dessert[] = [
     price: 5.99,
     description: "Decadent red velvet cupcakes",
     imageURL: "/images/Red_Velvet_Cupcakes.jpg",
+    duration: 40,
+    easeOfMaking: "Easy",
   },
   {
     id: 7,
@@ -63,6 +77,8 @@ const desserts: Dessert[] = [
     price: 7.99,
     description: "Classic ice cream treat",
     imageURL: "/images/Ice_Cream_Sundae.jpg",
+    duration: 10,
+    easeOfMaking: "Easy",
   },
   {
     id: 8,
@@ -71,6 +87,8 @@ const desserts: Dessert[] = [
     price: 9.99,
     description: "Smooth Italian dessert",
     imageURL: "/images/Panna_Cotta.jpg",
+    duration: 30,
+    easeOfMaking: "Easy",
   },
   {
     id: 9,
@@ -79,6 +97,8 @@ const desserts: Dessert[] = [
     price: 8.99,
     description: "Creamy custard with caramelized sugar topping",
     imageURL: "/images/Creme_Brulee.jpg",
+    duration: 60,
+    easeOfMaking: "Medium",
   },
   {
     id: 10,
@@ -87,6 +107,8 @@ const desserts: Dessert[] = [
     price: 7.99,
     description: "Tart and creamy lime filling",
     imageURL: "/images/Key_Lime_Pie.jpg",
+    duration: 50,
+    easeOfMaking: "Medium",
   },
   {
     id: 11,
@@ -95,6 +117,8 @@ const desserts: Dessert[] = [
     price: 6.99,
     description: "Light and fluffy chocolate mousse",
     imageURL: "/images/Chocolate_Mousse.jpg",
+    duration: 35,
+    easeOfMaking: "Easy",
   },
   {
     id: 12,
@@ -103,6 +127,8 @@ const desserts: Dessert[] = [
     price: 9.99,
     description: "Sweet pastry filled with nuts",
     imageURL: "/images/Baklava.jpg",
+    duration: 120,
+    easeOfMaking: "Difficult",
   },
   {
     id: 13,
@@ -111,6 +137,8 @@ const desserts: Dessert[] = [
     price: 6.99,
     description: "Layers of cake, strawberries, and cream",
     imageURL: "/images/Strawberry_Shortcake.jpg",
+    duration: 50,
+    easeOfMaking: "Medium",
   },
   {
     id: 14,
@@ -119,6 +147,8 @@ const desserts: Dessert[] = [
     price: 5.99,
     description: "Refreshing tropical sorbet",
     imageURL: "/images/Mango_Sorbet.jpg",
+    duration: 25,
+    easeOfMaking: "Easy",
   },
 ];
 
